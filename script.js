@@ -9,7 +9,7 @@ const title = document.querySelector('#title');
 const cover = document.querySelector('#cover');
 
 // Song titles
-const songs = ['Drake', 'Jay-Z', 'Rihanna'];
+const songs = ['drake', 'jay-z', 'rihanna'];
 
 // Song tracker
 let songIndex = 2;
