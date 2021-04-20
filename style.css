@@ -11,7 +11,7 @@ body {
     background-image: linear-gradient(
         0deg,
      rgb(247, 247, 247) 23.8%,
-     rgb(252, 221, 221) 92%);
+     rgb(221, 251, 252) 92%);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,7 +21,7 @@ body {
 .music-container {
     background-color: white;
     border-radius: 15px;
-    box-shadow: 0 20px 20px 0 rgba(252, 169, 169, 0.6);
+    box-shadow: 0 20px 20px 0 rgba(169, 198, 252, 0.6);
     display: flex;
     padding: 20px 30px;
     position: relative;
@@ -36,7 +36,6 @@ body {
 
 .img-container::after {
     content: '';
-    background-color: white;
     height: 20px;
     width: 20px;
     position: absolute;
@@ -83,7 +82,7 @@ body {
 .action-btn {
     background-color: white;
     border: 0;
-    color: #dfbbdf;
+    color: #bbcadf;
     font-size: 20px;
     cursor: pointer;
     padding: 10px;
@@ -91,7 +90,7 @@ body {
 } 
 
 .action-btn-big {
-    color: #cdc2d0;
+    color: #bbcadf;
     font-size: 30px;
 }
 
@@ -100,7 +99,7 @@ body {
 }
 
 .music-info {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.521);
     border-radius: 15px 15px 0 0;
     position: absolute;
     top: 0;
@@ -131,7 +130,7 @@ body {
 }
 
 .progress {
-    background-color: #fe8daa;
+    background-color: #8d98fe;
     border-radius: 5px;
     height: 100%;
     width: 0%;
